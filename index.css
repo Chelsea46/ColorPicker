@@ -18,6 +18,7 @@ body{
     width: 7%;
     cursor: pointer;
     background-color: beige;
+    border-radius: 10px;
 }
 
 button{
@@ -38,6 +39,7 @@ button:hover{
 select{
     text-align: center;
     font-size: 1.2rem;
+    border-radius: 8px;
 }
 
 section{
