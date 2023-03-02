@@ -17,8 +17,10 @@ body{
     height: 43px;
     width: 7%;
     cursor: pointer;
-    background-color: beige;
+    background-color: white;
     border-radius: 10px;
+    border: none;
+
 }
 
 button{
