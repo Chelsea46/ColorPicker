@@ -1,7 +1,7 @@
 body{
     margin: 0;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    background-image: linear-gradient(11deg, black, #00000085);
+    background-image: linear-gradient(11deg, #afa6a6, #ede0e085);
     color: beige;
 }
 
@@ -24,7 +24,7 @@ button{
     width: 13%;
     cursor: pointer;
     font-size: 1.1rem;
-    background-color: beige;
+    background-color: white;
     border-radius: 10px;
     border: none;
     color: black;
@@ -32,7 +32,7 @@ button{
 }
 
 button:hover{
-    box-shadow: 10px 10px 39px 0px rgb(124 124 113);
+    box-shadow: 10px 10px 39px 0px rgb(227 227 217);
 }
 
 select{
@@ -57,4 +57,21 @@ section{
     height: 80vh;
     cursor: pointer;
     
+}
+
+@media(max-width:400px){
+    #seed{
+        width: 18%;
+    }
+    button{
+        width:27%;
+    }
+    select{
+        width:38%;
+    }
+    .form{
+        justify-content: space-evenly;
+        padding: 0em;
+        margin-top: 1em;
+    }
 }
